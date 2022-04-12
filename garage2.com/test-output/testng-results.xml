@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-11T16:23:56 EDT" name="Default suite" finished-at="2022-04-11T16:23:56 EDT" duration-ms="187">
+    <groups>
+    </groups>
+    <test started-at="2022-04-11T16:23:56 EDT" name="Default test" finished-at="2022-04-11T16:23:56 EDT" duration-ms="187">
+      <class name="NewTest">
+        <test-method signature="assertDblEquals()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="assertDblEquals" finished-at="2022-04-11T16:23:56 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertDblEquals -->
+        <test-method signature="canEqualSame()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="canEqualSame" finished-at="2022-04-11T16:23:56 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canEqualSame -->
+        <test-method signature="equalSameValue()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="equalSameValue" finished-at="2022-04-11T16:23:56 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalSameValue -->
+        <test-method signature="makeIncorrect()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="makeIncorrect" finished-at="2022-04-11T16:23:56 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeIncorrect -->
+        <test-method signature="showsIncrease()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="showsIncrease" finished-at="2022-04-11T16:23:56 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showsIncrease -->
+        <test-method signature="showsNestedForLoop()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="showsNestedForLoop" finished-at="2022-04-11T16:23:56 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showsNestedForLoop -->
+        <test-method signature="useIf()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="useIf" finished-at="2022-04-11T16:23:56 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useIf -->
+        <test-method signature="useIfElse()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="useIfElse" finished-at="2022-04-11T16:23:56 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useIfElse -->
+        <test-method signature="usesAnd()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="usesAnd" finished-at="2022-04-11T16:23:56 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usesAnd -->
+        <test-method signature="usesOr()[pri:0, instance:NewTest@2c34f934]" started-at="2022-04-11T16:23:56 EDT" name="usesOr" finished-at="2022-04-11T16:23:56 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usesOr -->
+      </class> <!-- NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
