@@ -1,0 +1,42 @@
+1. Page: /text-box. Write a selector that will return the ‘Full Name’ textbox using the ID attribute.
+Hint: This element has the ‘input’ tag.
+
+input#userName
+
+2. Page: /buttons. Write a selector that will return all 3 buttons shown below.
+
+button.btn.btn-primary
+
+3. Page: /buttons. Write a selector that will return the span element in the footer.
+
+footer>span
+
+4. Page: /menu. Write a selector that will return the 3 list item elements in the unordered list.
+
+ul#nav
+
+5. Page: /select-menu. Write a selector that will get the option element where value = 4.
+
+option[value='4']
+
+6. Page: /slider. Write the JavaScript to get the value for the element with id=sliderValue.
+public void canFindElement(){
+	String text = "myValue";
+	
+	WebElement element = this.driver.findElement(By.id("sliderValue"));
+	element.sendKeys(text);
+
+	String actualText = element.getAttribute("value");
+	
+	assertEquals(actualText, text, "selenium should send text to the element.");
+
+7. Page: /text-box. Write the JavaScript to set the value for the element with id=username.
+public void canFindElement(){
+	String text = "myText";
+	
+	WebElement element = this.driver.findElement(By.id("userName"));
+	element.sendKeys(text);
+
+	String actualText = element.getAttribute("value");
+	
+	assertEquals(actualText, text, "selenium should send text to the element.");
